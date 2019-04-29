@@ -1,7 +1,7 @@
 $ColorText: #707070;
 $ColorTextSecondary: #a0a0a0;
 $ColorLightGray: #E0E0E0;
-$ColorPrimary: #3949AB;
+$ColorPrimary: #78909C;
 
 $GlobalPadding: 30px;
 
@@ -38,10 +38,10 @@ a:hover {
     height: 80px;
     width: 80px;
     border-radius: 100%;
-    background-image: url("../res/me3.jpg");
-    background-position: center;
+    background-image: url("../res/jon.jpg");
+    background-position: 0px -20px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 
   .head-text {
@@ -101,11 +101,11 @@ a:hover {
         background-size: contain;
       }
 
-      #github {
-        background-image: url("../res/github.png");
+      #handshake {
+        background-image: url("../res/handshake.png");
         background-position: center;
         background-size: contain;
-        filter: invert(1);
+        filter: brightness(0) invert(1);
       }
 
       #linkedin {
@@ -186,30 +186,40 @@ a:hover {
       padding-top: 10px;
 
       #fav1 {
-        background-image: url("../res/puzzle.svg");
+        background-image: url("../res/depaul.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 150%;
         background-position: center;
+        filter: brightness(0);
       }
 
       #fav2 {
-        background-image: url("../res/lock.svg");
+        background-image: url("../res/a-icon.svg");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 150%;
         background-position: center;
       }
 
       #fav3 {
-        background-image: url("../res/music-icon1.png");
+        background-image: url("../res/smash.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+        filter: brightness(0);
       }
 
       #fav4 {
-        background-image: url("../res/sonic2.png");
+        background-image: url("../res/chess.png");
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: center;
+        filter: brightness(0);
+      }
+
+      #fav5 {
+        background-image: url("../res/d.svg");
+        background-repeat: no-repeat;
+        background-size: 120%;
         background-position: center;
         filter: brightness(0);
       }
