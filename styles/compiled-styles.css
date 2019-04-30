@@ -6,6 +6,11 @@ body {
 
 a {
   text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.first {
+  list-style: none; }
 
 .page-container {
   background-color: #fff;
