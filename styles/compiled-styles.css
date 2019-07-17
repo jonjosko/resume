@@ -41,6 +41,7 @@ a {
     background-repeat: no-repeat;
     background-size: 140%; }
   .res-head .head-text {
+    text-align: center;
     width: 100%;
     padding-left: 20px; 
     }
